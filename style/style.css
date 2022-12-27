@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #000000;
+  color:  #C3C3C3;
+}
+.flex{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+header{
+  height: 100px;
+  padding: 62px 36px;
+  color:  #C3C3C3;
+}
+
+h1{
+  font-size: 20px;
+}
+header ul{
+  width: 414px;
+  
+ 
+}
+header li a{
+ 
+  color:  #C3C3C3;
+  font-size: 16px;
+
+}
+ 
+/* /////...main....//// */
+
+/* main p{
+font-size: 128px;
+padding: 64px;
+justify-content: center;
+word-spacing: 90px;
+} */
+
+.name{
+  width: 90%;
+  font-size: 128px;
+  margin: 64px auto;
+}
+
+
+.ps{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  width: 90%;
+  margin: 120px auto;
+}
+
+.ps p{ 
+  width: 30%;
+}
+
+article{
+  width: 464;
+  height: 728px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+article h2 a{
+  font-size: 20px;
+  color: #C3C3C3;
+}
+article img{
+  width: 462px;
+  height: 628px;
+  overflow: hidden;
+
+}
+article img img{
+  width: 100%;
+}
+
+
+
+/* --- foooter ----- */
+
+footer{
+  height: 200px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 112px auto;
+}
+footer img{
+  width: 100px;
+  height: 100px;
+}
+
+footer img img{
+  width: 100%;
+}
+footer div{
+  padding: 16px;
+}
+ footer p{
+  font-size: 36px;
+ }
+ .p2{
+  font-size: 20px;
+ }
+
+
+ /* ----------Produkt--------- */
+
+.mprodukt{
+  padding: 140px 60px;
+  align-items: flex-start;
+}
+ main div.produktartikle{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ width: 75%;
+ 
+}
+
+ article.produkt{
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+ 
+ }
+
+article.produkt h2{ 
+  font-size: 20px;
+  color: #C3C3C3;
+  text-align: center;
+ }
+
+article.produkt img{
+  width: 200px;
+  height: 270px;
+  overflow: hidden;
+
+}
+article.produkt img img{
+  width: 100%;
+}
+
+
+main nav.produktnav{
+  text-align: right;
+  }
+
+main nav.produktnav ul li a{
+  /* padding: 15px 20px; */
+  font-size: 20px;
+ 
+}
